@@ -1,0 +1,11 @@
+.grid-col {
+  background: rgba(255, 0, 0, 0.5);
+}
+
+.quarter {
+  lost-column: 1/4 0;
+}
+
+.half {
+  lost-column: 1/2 0;
+}

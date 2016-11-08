@@ -1,0 +1,20 @@
+/**
+ * Standalone LostGrid classes (prefixed) in a utlities file that can be imported.
+ */
+
+.row {
+  lost-utility: clearfix;
+}
+
+.quarter,
+.half {
+  background: rgba(255,  0, 0, 0.5);
+}
+
+.quarter {
+  lost-column: 1/4 0;
+}
+
+.half {
+  lost-column: 1/2 0;
+}

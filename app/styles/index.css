@@ -1,0 +1,36 @@
+/**
+ * LostGrid classes scoped to the index route (automatically prefixed).
+ */
+
+.row {
+  lost-utility: clearfix;
+}
+
+.quarter,
+.half {
+  background: rgba(255, 0, 0, 0.5);
+}
+
+.quarter {
+  lost-column: 1/4 0;
+}
+
+.half {
+  lost-column: 1/2 0;
+}
+
+/**
+ * Importing scoped utility classes from styles/app.css.
+ */
+
+.foo {
+  composes: row from 'e-css-modules-utils/styles/utilities';
+}
+
+.beep {
+  composes: quarter from 'e-css-modules-utils/styles/utilities';
+}
+
+.boop {
+  composes: half from 'e-css-modules-utils/styles/utilities';
+}

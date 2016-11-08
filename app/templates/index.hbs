@@ -1,0 +1,29 @@
+<section class="row">
+  <div class="quarter">1</div>
+  <div class="half">2</div>
+  <div class="quarter">3</div>
+</section>
+
+<hr>
+
+<section local-class="row">
+  <div local-class="quarter">1</div>
+  <div local-class="half">2</div>
+  <div local-class="quarter">3</div>
+</section>
+
+<hr>
+
+<section local-class="foo">
+  <div local-class="beep">1</div>
+  <div local-class="boop">2</div>
+  <div local-class="beep">3</div>
+</section>
+
+<hr>
+
+{{#grid-row}}
+  {{#grid-col fraction='quarter'}}1{{/grid-col}}
+  {{#grid-col fraction='half'}}2{{/grid-col}}
+  {{#grid-col fraction='quarter'}}3{{/grid-col}}
+{{/grid-row}}
